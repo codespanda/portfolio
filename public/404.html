@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <script>
+      // SPA fallback for static hosts (primarily GitHub Pages).
+      // Redirects any unknown deep link back to the app root so the
+      // client-side router can render the correct route (incl. the custom 404).
+      // For a project page served under /<repo>/, keep the first path segment.
+      (function () {
+        var segmentsToKeep = 1; // deploying to https://codespanda.github.io/portfolio/
+        var l = window.location;
+        var base = l.pathname
+          .split('/')
+          .slice(0, 1 + segmentsToKeep)
+          .join('/');
+        l.replace(l.protocol + '//' + l.host + base + '/');
+      })();
+    </script>
+    <meta http-equiv="refresh" content="0; url=/portfolio/" />
+  </head>
+  <body>
+    Redirecting…
+  </body>
+</html>

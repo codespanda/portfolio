@@ -1,0 +1,51 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Production-ready one-page developer portfolio built with React + Vite + TypeScript + Tailwind + shadcn/ui.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.462.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-hook-form": "^7.53.2",
+    "react-router-dom": "^6.28.0",
+    "sonner": "^1.7.0",
+    "tailwind-merge": "^2.5.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/node": "^22.9.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.15",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.15.0",
+    "vite": "^5.4.11"
+  }
+}

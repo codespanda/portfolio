@@ -1,0 +1,6 @@
+This is a placeholder for your resume.
+
+Replace this file with your real resume named `resume.pdf` in the `public/` folder,
+then update `personal.resumeUrl` in `src/data/portfolio.ts` to `/resume.pdf`.
+
+Files placed in `public/` are served from the site root (e.g. /resume.pdf).
