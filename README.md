@@ -1,5 +1,7 @@
 # Portfolio
 
+**Live:** [https://codespanda.github.io/portfolio/](https://codespanda.github.io/portfolio/)
+
 A production-ready, one-page developer portfolio. Fast, accessible, responsive, and fully driven by a **single configuration file** — no backend required.
 
 Built with **React + Vite + TypeScript + Tailwind CSS + shadcn/ui**.
