@@ -16,7 +16,7 @@ createRoot(rootEl).render(
     <ErrorBoundary>
       <HelmetProvider>
         <ThemeProvider>
-          <BrowserRouter basename="/portfolio">
+          <BrowserRouter basename={import.meta.env.BASE_URL}>
             <App />
             <ThemedToaster />
           </BrowserRouter>
